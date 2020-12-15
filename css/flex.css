@@ -1,0 +1,353 @@
+*{
+	margin:0px;
+	padding:0px;
+	/*outline:1px solid red;*/
+}
+
+body{
+	background:#222222;
+	font-family: Verdana;
+	font-size: 14px;
+	color:#d4d4d4;
+}
+
+a{
+	color:#d4d4d4;
+	text-decoration:none;
+	
+}
+
+a:hover{
+	color:#ffcb06;
+	
+}
+
+p {
+	line-height:20px;
+}
+
+.main{
+	width:1280px;
+	margin:0px auto;
+}
+
+header{
+	background:#222222;
+	padding-top:55px;
+	padding-right:160px;
+	padding-bottom:125px;
+	padding-left:160px;
+}
+
+nav{
+	display:flex;
+	justify-content:space-between;
+}
+
+nav ul{
+	display:flex;
+	align-items:center;
+}
+
+.logo{
+	margin-right:70px;
+}
+
+.nav-li{
+	margin-right:30px;
+}
+
+.mail-icon{
+	margin-right:25px;
+}
+
+.header-moon{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin-top:20px;
+}
+
+.header-left{
+	margin-left:130px;
+}
+
+.header-left h1{
+	font-family:"Courier New";
+	font-weight:bold;
+	font-size:45px;
+	color:#ffffff;
+	margin-bottom:60px;
+}
+
+.header-left p{
+	margin-bottom:60px;
+}
+
+.button-header{
+	width:240px;
+	height:50px;
+	background-color:#ffcb06;
+	border:none;
+	border-radius:35px;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+.button-header span{
+	font-weight:bold;
+}
+
+.button-header:hover{
+	background:#d4d4d4;
+}
+
+ul{
+	list-style-type:none;
+}
+
+.adventages{
+	padding:80px 70px;
+	background:#131313;
+	display:flex;
+	justify-content:space-between;
+}
+
+.adventages p{
+	margin-top:40px;
+}
+
+.adventages div{
+	width:180px;
+}
+
+.content{
+	background:#ffffff;
+	color:#222222;
+	padding:80px 160px 50px 160px;
+}
+
+.content-top{
+	display:flex;
+	justify-content:space-between;
+	color:#222222;
+}
+
+.content-top h1{
+	font-family:"Courier New";
+	font-size:24px;
+	color:#131313;
+	margin-bottom:30px;
+}
+
+.content-bot{
+	
+}
+
+.top-text{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+}
+
+.content-top p{
+	font-size:14px;
+}
+
+.content-bot li{
+	font-size:14px;
+	margin-bottom:30px;
+	position:relative;
+}
+
+.content-bot li::before{
+	content:"";
+	position:absolute;
+	width:8px;
+	height:8px;
+	border-radius:50%;
+	background-color:#ffcb06;
+	left: -25px;
+	top: 5px;
+}
+
+.content-bot{
+	display:flex;
+	font-size:14px;
+	justify-content:space-between;
+	color:#222222;
+	margin-top:85px;
+}
+
+.content-bot h1{
+	font-size:24px;
+	color:#131313;
+	margin-bottom:40px;
+}
+
+.content-bot h1{
+	font-family:"Courier New";
+	font-size:24px;
+	color:#131313;
+}
+
+.content-bot ul{
+	margin-left:25px;
+}
+
+.content-bot span{
+	font-weight:bold;
+}
+
+.content-bot div{
+	width:440px;
+}
+
+.forms{
+	background:#f0f0f0;
+	color:#222222;
+	padding:80px 160px 80px 160px;
+	display:flex;
+	justify-content:space-between;
+	font-family:sans-serif;
+}
+
+.forms h1{
+	font-family:"Courier New";
+	font-size:24px;
+	color:#131313;
+	margin-bottom:70px;
+}
+
+input[type="text"]{
+	color:#222222;
+	font-family:sans-serif;
+	border:none;
+	padding:20px;
+}
+
+.wdt-input{
+	width:440px;
+	margin-bottom:10px;
+}
+
+.input-point{
+	margin-left:10px;
+	margin-bottom:33px;
+	width:190px;
+}
+
+.input-h{
+	width:195px;
+}
+
+form span{
+	padding-left:17px;
+}
+
+.button-form span{
+	color:#ffffff;
+}
+
+.button-form:hover{
+	background:#ffcb06;
+}
+
+.button-form{
+	width:240px;
+	height:50px;
+	background:#222222;
+	border:none;
+	border-radius:35px;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	margin-top:30px;
+}
+
+.table{
+	background:#222222;
+	padding:80px 160px;
+}
+
+.table-top{
+	display:flex;
+	width:1000px;
+	justify-content:space-between;
+}
+
+.table-top a{
+	color:#feca30;
+	direction:underline;
+}
+
+.table-top a:hover{
+	color:#000000;
+}
+
+.table-top p{
+	font-size:13px;
+	font-family:Verdana;
+	width:440px;
+}
+
+.table-top h1{
+	font-size:24px;
+	font-family:"Courier New";
+	color:#feca30;
+}
+
+.table-bot div{
+	display:flex;
+	justify-content:space-between;
+	border-bottom: 1px solid #555555;
+}
+
+.table-bot div p{
+	width:180px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+}
+
+.table-header{
+	background:#111111;
+	font-weight:bold;
+	margin-top:90px;
+}
+
+footer{
+	padding:70px 160px;
+	display:flex;
+	justify-content: space-between;
+	background-color:#131313;
+}
+
+footer div{
+	width:180px;
+}
+
+.SpaceZ{
+	display:flex;
+	margin-bottom:110px;
+	align-items:center;
+}
+
+footer p{
+	font-size:13px;
+	color:#888888;
+	margin-top:25px;
+}
+
+footer h1{
+	font-size:14px;
+	color:#ffffff;
+	border-bottom:1px solid #555555;
+	margin-bottom:55px;
+	padding-bottom:20px;
+}
+
+.OOO_Kosmos{
+	color:#555555;	
+}
